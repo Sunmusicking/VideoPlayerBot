@@ -26,7 +26,7 @@ from helpers.utils import delete, update, is_admin
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaDocument
 
 
-HOME_TEXT = "♥️💙 **𝗛𝗶 [{}](tg://user?id={})**, \n\n𝗜'𝗠 **🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ**. \n𝗜 𝗖𝗔𝗡 Stream 𝗟𝗜𝗩𝗘𝗦, YouTube 𝗩𝗜𝗗𝗘𝗢𝗦 & Telegram Video 𝗙𝗜𝗟𝗘𝗗 On Video 𝗖𝗛𝗔𝗧 Of Telegram 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 & 𝗚𝗥𝗢𝗨𝗣𝗦✨🤩! \n\n**𝗠𝗔𝗗𝗘 With 💞 By @KING_BOTz!** 👑"
+HOME_TEXT = "♥️💙 **𝙃𝙄 [{}](tg://user?id={})**, \n\n𝙄'𝙈 **🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ**. \n𝙄 𝘾𝘼𝙉 𝙎𝙏𝙍𝙀𝘼𝙈 𝙇𝙄𝙑𝙀𝙎, 𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝙑𝙄𝘿𝙀𝙊𝙎 & 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙑𝙄𝘿𝙀𝙊 𝙁𝙄𝙇𝙀𝙎 𝙊𝙉 𝙑𝙄𝘿𝙀𝙊 𝘾𝙃𝘼𝙏 𝙊𝙁 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝘾𝙃𝘼𝙉𝙉𝙀𝙇𝙎 & 𝙂𝙍𝙊𝙐𝙋𝙎✨🤩 \n\n**𝗠𝗔𝗗𝗘 With 💞 By @KING_BOTz** 👑"
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
@@ -60,7 +60,7 @@ HELP_TEXT = """
 \u2022 `/getlogs` - get the ffmpeg & bot logs
 
 © **Powered By** : 
-**@KING_BOTz | @TAMIL_CHATBOXT** 👑
+**@KING_BOTz | @TAMIL_CHATBOX** 👑
 """
 
 admin_filter=filters.create(is_admin) 
@@ -72,12 +72,12 @@ async def start(client, message):
                 InlineKeyboardButton("🥰❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/KingVideoRoboT?startgroup=new"),
             ],
             [
-                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/KING_BOTz"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/TAMIL_CHATBOX"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("💡❰𝐀ssɪsᴛᴀɴᴛ❱", url="https://t.me/KingVideoAssisT"),
+                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://t.me/iMzaynKING"),
             ],
             [
                 InlineKeyboardButton("🤖❰𝐇ᴏᴡ 𝐓ᴏ 𝐔sᴇ❱", callback_data="help"),
@@ -95,12 +95,12 @@ async def show_help(client, message):
                 InlineKeyboardButton("🥰❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/KingVideoRoboT?startgroup=new"),
             ],
             [
-                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/KING_BOTz"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/TAMIL_CHATBOX"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("💡❰𝐀ssɪsᴛᴀɴᴛ❱", url="https://t.me/KingVideoAssisT"),
+                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://t.me/iMzaynKING"),
             ],
             [
                 InlineKeyboardButton("⬅️❰𝐁ᴀᴄᴋ 𝐇ᴏᴍᴇ❱", callback_data="home"),
@@ -127,7 +127,7 @@ async def update_handler(client, message):
         await k.edit("🔄 **Restarting, Please Wait...**")
     await update()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For Update!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @KING_BOTz For Update!**")
         await k.reply_to_message.delete()
     except:
         pass
@@ -159,7 +159,7 @@ async def set_heroku_var(client, message):
     if not Config.HEROKU_APP:
         buttons = [[InlineKeyboardButton('HEROKU_API_KEY', url='https://dashboard.heroku.com/account/applications/authorizations/new')]]
         k=await message.reply_text(
-            text="❗ **No Heroku App Found !** \n__Please Note That, This Command Needs The Following Heroku Vars To Be Set :__ \n\n1. `HEROKU_API_KEY` : Your heroku account api key.\n2. `HEROKU_APP_NAME` : Your heroku app name. \n\n**For More Ask In @AsmSupport !!**", 
+            text="❗ **No Heroku App Found !** \n__Please Note That, This Command Needs The Following Heroku Vars To Be Set :__ \n\n1. `HEROKU_API_KEY` : Your heroku account api key.\n2. `HEROKU_APP_NAME` : Your heroku app name. \n\n**For More Ask In @KING_BOTz !!**", 
             reply_markup=InlineKeyboardMarkup(buttons))
         await delete(k)
         return     
