@@ -26,7 +26,7 @@ from helpers.utils import delete, update, is_admin
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaDocument
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**, \n\nI'm **Video Player Bot**. \nI Can Stream Lives, YouTube Videos & Telegram Video Files On Video Chat Of Telegram Channels & Groups 😉! \n\n**Made With ❤️ By @ImSafone!** 👑"
+HOME_TEXT = "♥️💙 **𝗛𝗶 [{}](tg://user?id={})**, \n\n𝗜'𝗠 **🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ**. \n𝗜 𝗖𝗔𝗡 Stream 𝗟𝗜𝗩𝗘𝗦, YouTube 𝗩𝗜𝗗𝗘𝗢𝗦 & Telegram Video 𝗙𝗜𝗟𝗘𝗗 On Video 𝗖𝗛𝗔𝗧 Of Telegram 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 & 𝗚𝗥𝗢𝗨𝗣𝗦✨🤩! \n\n**𝗠𝗔𝗗𝗘 With 💞 By @KING_BOTz!** 👑"
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
@@ -60,7 +60,7 @@ HELP_TEXT = """
 \u2022 `/getlogs` - get the ffmpeg & bot logs
 
 © **Powered By** : 
-**@AsmSafone | @AsmSupport** 👑
+**@KING_BOTz | @TAMIL_CHATBOXT** 👑
 """
 
 admin_filter=filters.create(is_admin) 
@@ -69,18 +69,18 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
+                InlineKeyboardButton("🥰❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/KingVideoRoboT?startgroup=new"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/AsmSafone"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/AsmSupport"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
             ],
             [
-                InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
+                InlineKeyboardButton("🤖❰𝐇ᴏᴡ 𝐓ᴏ 𝐔sᴇ❱", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,19 +92,19 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
+                InlineKeyboardButton("🥰❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/KingVideoRoboT?startgroup=new"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/AsmSafone"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/AsmSupport"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
             ],
             [
-                InlineKeyboardButton("BACK HOME", callback_data="home"),
-                InlineKeyboardButton("CLOSE MENU", callback_data="close"),
+                InlineKeyboardButton("⬅️❰𝐁ᴀᴄᴋ 𝐇ᴏᴍᴇ❱", callback_data="home"),
+                InlineKeyboardButton("🔴❰𝐂ʟᴏsᴇ 𝐌ᴇɴᴜ❱", callback_data="close"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
