@@ -87,11 +87,11 @@ async def add_to_playlist(_, message: Message):
         await msg.edit("➕ **Media Added To Playlist !**")
     if type=="youtube" or type=="query":
         if type=="youtube":
-            msg = await message.reply_text("🔎")
+            msg = await message.reply_text("🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ sᴇᴀʀᴄʜɪɴɢ🔎")
             url=yturl
         elif type=="query":
             try:
-                msg = await message.reply_text("🔎")
+                msg = await message.reply_text("🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ sᴇᴀʀᴄʜɪɴɢ🔎")
                 ytquery=ysearch
                 results = YoutubeSearch(ytquery, max_results=1).to_dict()
                 url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -136,9 +136,9 @@ async def add_to_playlist(_, message: Message):
         await delete(msg)
     pl=await get_playlist_str()
     if message.chat.type == "private":
-        await message.reply_photo(photo=Config.THUMB_LINK, caption=pl, reply_markup=await get_buttons())
+        await message.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption=pl, reply_markup=await get_buttons())
     elif not Config.LOG_GROUP and message.chat.type == "supergroup":
-        await message.reply_photo(photo=Config.THUMB_LINK, caption=pl, reply_markup=await get_buttons())
+        await message.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption=pl, reply_markup=await get_buttons())
     await delete(message)
     for track in Config.playlist[:2]:
         await download(track)
@@ -220,7 +220,7 @@ admincmds=["join", "leave", "pause", "resume", "skip", "restart", "volume", "shu
 
 @Client.on_message(filters.command(admincmds) & ~admin_filter & (filters.chat(Config.CHAT_ID) | filters.private | filters.chat(Config.LOG_GROUP)))
 async def notforu(_, m: Message):
-    k=await _.send_cached_media(chat_id=m.chat.id, file_id="CAACAgUAAxkBAAEB1GNhO2oHEh2OqrpucczIprmOIEKZtQACfwMAAjSe9DFG-UktB_TxOh4E", caption="**You Are Not Authorized !!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡️ Join Here ⚡️', url='https://t.me/AsmSafone')]]), reply_to_message_id=m.message_id)
+    k=await _.send_cached_media(chat_id=m.chat.id, file_id="CAACAgUAAxkBAAEB1GNhO2oHEh2OqrpucczIprmOIEKZtQACfwMAAjSe9DFG-UktB_TxOh4E", caption="**You Are Not Authorized !!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡️ Join Here ⚡️', url='https://t.me/KING_BOTz')]]), reply_to_message_id=m.message_id)
     await delete(k)
 
 allcmd = ["play", "current", "playlist", f"play@{Config.BOT_USERNAME}", f"current@{Config.BOT_USERNAME}", f"playlist@{Config.BOT_USERNAME}"] + admincmds
@@ -229,11 +229,11 @@ allcmd = ["play", "current", "playlist", f"play@{Config.BOT_USERNAME}", f"curren
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/KING_BOTz"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/TAMIL_CHATBOX"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://t.me/iMzaynKING"),
             ]
          ]
-    await m.reply_photo(photo=Config.THUMB_LINK, caption="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+    await m.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://t.me/iMzaynKING) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
