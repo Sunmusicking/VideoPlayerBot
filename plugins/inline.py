@@ -25,14 +25,14 @@ from pyrogram.types import InlineQueryResultArticle, InlineQueryResultPhoto, Inp
 
 buttons = [
             [
-                InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
+                InlineKeyboardButton("🥰❰𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ❱", url="https://t.me/KingVideoRoboT?startgroup=new"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("💕❰𝐂ʜᴀɴɴᴇʟ❱", url="https://t.me/KING_BOTz"),
+                InlineKeyboardButton("⭕️❰𝐒ᴜᴘᴘᴏʀᴛ❱", url="https://t.me/TAMIL_CHATBOX"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://t.me/iMZaynking"),
             ]
          ]
 
@@ -48,10 +48,10 @@ async def search(client, query):
     if query.query == "SAF_ONE":
         answers.append(
             InlineQueryResultPhoto(
-                title="Deploy Own Video Player Bot",
-                thumb_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                photo_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @AsmSupport 👑</b>",
+                title="🎥𝙆𝙄𝙉𝙂 𝙑𝙄𝘿𝙀𝙊✘𝐏ʟᴀʏᴇʀ",
+                thumb_url="https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg",
+                photo_url="https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg",
+                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@KING_BOTz | @TAMIL_CHATBOX 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
