@@ -12,7 +12,7 @@
 [![Bot Updates](https://img.shields.io/badge/VideoPlayerBot-Updates%20Channel-green)](https://t.me/AsmSafone)
 [![Bot Support](https://img.shields.io/badge/VideoPlayerBot-Support%20Group-blue)](https://t.me/AsmSupport)
 
-An Telegram Bot By [@AsmSafone](https://t.me/AsmSafone) To Stream Videos In Telegram Voice Chat Of Both Groups & Channels. Supports Live Streams, YouTube Videos & Telegram Media !!
+An Telegram Bot By [@KING_BOTz](https://t.me/KING_BOTz) To Stream Videos In Telegram Voice Chat Of Both Groups & Channels. Supports Live Streams, YouTube Videos & Telegram Media !!
 
 ## Special Features
 
@@ -57,8 +57,8 @@ An Telegram Bot By [@AsmSafone](https://t.me/AsmSafone) To Stream Videos In Tele
 
 ## Self Host
 ```sh
-$ git clone -b alpha https://github.com/S1-BOTS/VideoPlayerBot
-$ cd VideoPlayerBot
+$ git clone -b alpha https://github.com/Sunmusicking/VideoPlayerBot.git
+$ cd KingVideoRoboT
 $ sudo apt install git curl python3-pip ffmpeg -y
 $ pip3 install -U pip
 $ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
