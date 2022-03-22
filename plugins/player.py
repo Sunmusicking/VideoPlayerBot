@@ -136,9 +136,9 @@ async def add_to_playlist(_, message: Message):
         await delete(msg)
     pl=await get_playlist_str()
     if message.chat.type == "private":
-        await message.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption=pl, reply_markup=await get_buttons())
+        await message.reply_photo(photo=Config.THUMP_LINK, caption=pl, reply_markup=await get_buttons())
     elif not Config.LOG_GROUP and message.chat.type == "supergroup":
-        await message.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption=pl, reply_markup=await get_buttons())
+        await message.reply_photo(photo=Config.THUMP_LINK, caption=pl, reply_markup=await get_buttons())
     await delete(message)
     for track in Config.playlist[:2]:
         await download(track)
@@ -236,4 +236,4 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://t.me/iMzaynKING"),
             ]
          ]
-    await m.reply_photo(photo=Config.https://telegra.ph/file/c52ade7bf3ad5b3e7c796.jpg, caption="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://t.me/iMzaynKING) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+    await m.reply_photo(photo=Config.THUMP_LINK, caption="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://t.me/iMzaynKING) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
