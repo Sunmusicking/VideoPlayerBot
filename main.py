@@ -1,6 +1,6 @@
 """
 VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/Sunmusicking/VideoPlayerBot.git>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -41,7 +41,7 @@ async def main():
     if Config.IS_NONSTOP_STREAM:
         await start_stream()
     try:
-        await USER.join_chat("AsmSafone")
+        await USER.join_chat("KING_BOTz")
     except UserAlreadyParticipant:
         pass
     except Exception as e:
