@@ -1,5 +1,5 @@
 echo "Cloning Repo, Please Wait..."
-git clone -b alpha https://github.com/Sunmusicking/VideoPlayerBot.git /VideoPlayerBot
+git clone -b alpha https://github.com/Sunmusicking/VideoPlayerBot.git /KingVideoRoboT
 cd /KingVideoRoboT
 echo "Installing Requirements..."
 pip3 install -U -r requirements.txt
