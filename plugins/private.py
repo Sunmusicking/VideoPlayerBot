@@ -80,7 +80,7 @@ async def start(client, message):
                 InlineKeyboardButton("👑❰𝐎ᴡɴᴇʀ❱", url="https://t.me/iMzaynKING"),
             ],
             [
-                InlineKeyboardButton("🤖❰𝐇ᴏᴡ 𝐓ᴏ 𝐔sᴇ❱", callback_data="help"),
+                InlineKeyboardButton("🤖❰𝐇ᴏᴡ 𝐓ᴏ 𝐔sᴇ❱", url="https://telegra.ph/-03-23-3276"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
