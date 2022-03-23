@@ -20,7 +20,7 @@ from config import Config
 from pyrogram import Client
 
 bot = Client(
-    "VideoPlayer",
+    "KingVideoRoboT",
     Config.API_ID,
     Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
